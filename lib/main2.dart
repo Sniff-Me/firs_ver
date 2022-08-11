@@ -4,6 +4,7 @@ import 'search_page.dart';
 import 'add_page.dart';
 import 'cart_page.dart';
 import 'account_page.dart';
+import 'edit_profile.dart';
 
 class Main2 extends StatefulWidget {
   @override
@@ -18,7 +19,7 @@ class _Main2State extends State<Main2> {
     SearchPage(),
     AddPage(),
     CartPage(),
-    AccountPage(),
+    EditProfilePage(),
   ];
   @override
   Widget build(BuildContext context) {
