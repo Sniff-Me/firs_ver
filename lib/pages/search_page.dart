@@ -13,7 +13,9 @@ class _SearchPageState extends State<SearchPage> {
         title: Text('SearchPage'),
         automaticallyImplyLeading: false,
       ),
-      body: Center(child: Text("Search")),
+      body: Center(
+        child: Text("Search"),
+      ),
     );
   }
 }
