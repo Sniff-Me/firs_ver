@@ -1,12 +1,20 @@
 // ignore_for_file: library_private_types_in_public_api
 
 import 'package:flutter/material.dart';
+
 import 'pages/home_page.dart';
 import 'package:sniffme/pages/search_page.dart';
 import 'pages/add_page.dart';
 import 'package:sniffme/pages/cart_page.dart';
 import 'package:sniffme/pages/account_page.dart';
 import 'package:sniffme/pages/edit_profile.dart';
+
+import 'home_page.dart';
+import 'search_page.dart';
+import 'add_page.dart';
+import 'cart_page.dart';
+import 'account_page.dart';
+import 'edit_profile.dart';
 
 class Main2 extends StatefulWidget {
   const Main2({Key key}) : super(key: key);
