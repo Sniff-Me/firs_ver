@@ -6,6 +6,7 @@ import 'package:sniffme/pages/search_page.dart';
 import 'pages/add_page.dart';
 import 'package:sniffme/pages/cart_page.dart';
 import 'package:sniffme/pages/account_page.dart';
+import 'package:sniffme/pages/edit_profile.dart';
 
 class Main2 extends StatefulWidget {
   const Main2({Key key}) : super(key: key);
@@ -22,7 +23,7 @@ class _Main2State extends State<Main2> {
     SearchPage(),
     AddPage(),
     CartPage(),
-    AccountPage(),
+    EditProfilePage(),
   ];
   @override
   Widget build(BuildContext context) {
